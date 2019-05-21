@@ -1,26 +1,18 @@
 <template>
-  <article class="tile is-child box notification is-secondary">
-    <div id="text">
+    <div class="box notification is-secondary project">
       <h1 class="title">{{ this.title }}</h1>
       <h2 class="subtitle">{{ this.description }}</h2>
       <h2 class="subtitle">Language: {{ this.language }}</h2>
       <div class="github-url">
-        <a :href="this.url" target="_blank">
-          <span class="icon">
-            <i class="fas fa-code"/>
-            <p>View Source Code</p>
+        <a id="github-url-text" :href="this.url" target="_blank">
+          <span>
+          <i class="fas fa-code"/>
+          View Source Code
           </span>
         </a>
       </div>
-    </div>
-  </article>
+  </div>
 </template>
-
-<!--
-
--->
-
-
 
 <script>
 export default {
@@ -37,13 +29,15 @@ export default {
 <style lang="scss">
 @import "@/assets/styles.scss";
 .project {
+  color: white;
   text-align: center;
-  #text {
-    color: white;
-  }
   .github-url {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 1.3rem;
+    #github-url-text {
+      text-decoration: none;
+    }
   }
 }
 </style>

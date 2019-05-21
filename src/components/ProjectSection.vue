@@ -4,8 +4,8 @@
       <h1>My Recent Projects</h1>
       <h2>Here are a few of my recent projects!</h2>
     </div>
-    <div class="tile-ancestor projects-section">
-      <div class="tile is-parent is-4 project" v-for="project in projects" :key="project.id">
+    <div class="columns is-multiline">
+      <div class="tile column is-4 " v-for="project in projects" :key="project.id">
         <project-card
           :title="project.title"
           :description="project.description"
@@ -98,7 +98,7 @@ export default {
 .project-section-titles {
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   h1 {
     font-size: 2rem;
     padding-top: 1rem;
@@ -109,9 +109,15 @@ export default {
     padding-bottom: 1rem;
   }
 }
-
 #github-button {
   margin-top: 4rem;
   margin-bottom: 8rem;
+}
+
+.columns {
+  background-color: $transparent;
+  .column {
+    padding-bottom: 1.75rem;
+  }
 }
 </style>

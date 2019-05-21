@@ -1,15 +1,14 @@
 @import "~bulma/sass/utilities/_all";
 
 // Set your colors
-$primary: #3A4656;
+$primary: #274690; // #1B264F <-- possible alternative color.
 $primary-invert: $white;
-$secondary: #5C9EAD;
+$secondary: #6B717E;
 $secondary-invert: $white;
 $transparent: rgba(0, 0, 0, 0);
 
 $navbar-breakpoint: 0;
 $navbar-padding-horizontal: 6rem;
-$navbar-item-hover-color: red;
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (

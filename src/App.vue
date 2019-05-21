@@ -3,7 +3,8 @@
     <navbar/>
     <div>
       <page-header />
-      <about-me/>
+      <about-me />
+      <skill-section :skills="skills" />
     </div>
     <div class="container">
       <project-section :projects="projects" />
@@ -18,6 +19,7 @@ import AboutMe from "./components/AboutMe.vue";
 import Footer from "./components/Footer.vue";
 import PageHeader from "./components/PageHeader.vue";
 import ProjectSection from "./components/ProjectSection.vue";
+import SkillSection from "./components/SkillSection.vue";
 
 export default {
   name: "app",
@@ -25,11 +27,13 @@ export default {
     Navbar,
     PageHeader,
     AboutMe,
+    SkillSection,
     ProjectSection,
     Footer
   },
   props: {
     projects: Array,
+    skills: Array,
   },
 };
 </script>
