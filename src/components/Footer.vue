@@ -3,7 +3,7 @@
     <div class="columns">
 
     </div>
-    <div id="cta-background" class="columns">
+    <div id="cta-background" class="box columns">
       <div class="column is-one-third">
         <h1>Let's build awesome code together!</h1>
       </div>
@@ -19,8 +19,11 @@
         </a>
       </div>
     </div>
-    <div id="ebc" class="columns">
-      <h1 class="column">Eat, breathe, code.</h1>
+    <div id="ebc1" class="columns">
+      <h1 class="column is-full">"Talk is cheap. Show me the code."</h1>
+    </div>
+    <div id="ebc2" class="columns">
+      <h1 class="column is-full">- Linus Torvalds</h1>
     </div>
     <div class="row buttons are-medium is-centered">
       <a href="https://github.com/AkshdeepSharma" 
@@ -56,20 +59,19 @@
 footer {
   background-color: $primary;
   color: white;
-  height: 25rem;
+  height: 30rem;
 }
 
 #cta-background {
   background-color: $secondary;
   margin: auto;
-  width: 70%;
   text-align: center;
   align-items: center;
-  padding-top: 1rem;
+  padding-top: 1.7rem;
   margin-top: -100px;
   border-radius: 10px;
   max-width: 60%;
-  box-shadow: 1px 1px 1px black;
+  color: white;
   h1 {
     font-size: 2rem;
     line-height: 2rem;
@@ -88,10 +90,17 @@ footer {
     border: 2px solid $primary;
   }
 }
-#ebc {
+#ebc1 {
   text-align: center;
   padding-top: 3rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  opacity: 0.8;
+}
+#ebc2 {
+  text-align: center;
+  margin-top: -50px;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
   opacity: 0.8;
 }
 #sm-icons {
