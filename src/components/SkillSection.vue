@@ -1,13 +1,26 @@
 <template>
-  <div class="columns">
-    <div v-for="skill in skills" :key="skill.title">
-      <skill-card
-        :title="skill.title"
-        :languages="skill.languages"
-        :technologies="skill.technologies"
-      />
+  <section class="section skills">
+    <div class="container is-narrow">
+      <div class="box is-paddingless">
+        <div class="columns is-centered is-marginless">
+          <skill-card
+            title="Front-end Skills"
+            languages="HTML, CSS, JavaScript, Sass"
+            :technologies="['Vue.js','Bulma','Buefy','Webpack','Babel',
+            'Git']"
+          />
+          <skill-card
+            title="Back-end Skills"
+            languages="Python, JavaScript"
+            :technologies="['Node.js','Express.js','MongoDB','Firebase',
+            'Amazon Web Services','Netlify','Digital Ocean','RESTful APIs',
+            'Git',
+          ]"
+          />
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -17,47 +30,20 @@ export default {
   components: {
     SkillCard
   },
-  data() {
-    return {
-      skills: [
-        {
-          title: "Front-end Skills",
-          languages: "HTML, CSS, JavaScript, Sass",
-          technologies: [
-              "Vue.js", 
-              "Bulma",
-              "Buefy",
-              "Webpack",
-              "Babel",
-              "Git", 
-              "GitHub"
-            ]
-        },
-        {
-          title: "Back-end Skills",
-          languages: "Python, JavaScript",
-          technologies: [
-            "Node.js",
-            "Express.js",
-            "MongoDB",
-            "Firebase",
-            "Route53",
-            "S3 Buckets",
-            "Netlify",
-            "Digital Ocean",
-            "RESTful APIs",
-            "Cron Job",
-            "Postman",
-            "Git",
-            "GitHub",
-          ]
-        }
-      ]
-    };
-  }
 };
 </script>
 
 <style lang="scss">
-@import "@/assets/styles.scss";
+.skills {
+  padding-bottom: 1rem;
+  margin-top: -14rem;
+  .column:last-child {
+    border-right: none;
+    border-bottom: none;
+  }
+}
+
+.container.is-narrow {
+  max-width: 800px;
+}
 </style>

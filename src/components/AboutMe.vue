@@ -31,4 +31,8 @@
       font-size: 1.25rem;
   }
 }
+
+.hero {
+  padding-bottom: 4rem;
+}
 </style>

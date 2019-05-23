@@ -97,6 +97,7 @@ export default {
 @import "@/assets/styles.scss";
 .project-section-titles {
   text-align: center;
+  color: black;
   padding-top: 2rem;
   padding-bottom: 2rem;
   h1 {

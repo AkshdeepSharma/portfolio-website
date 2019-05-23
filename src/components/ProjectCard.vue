@@ -31,6 +31,9 @@ export default {
 .project {
   color: white;
   text-align: center;
+  .title {
+    padding-bottom: 1rem;
+  }
   .github-url {
     padding-top: 20px;
     padding-bottom: 20px;

@@ -15,13 +15,7 @@ This was my first project using Vue.js. If you feel that I can improve my code s
 #### Header
  1. Get a legit image of myself
 
-#### Skills Section
- 1. Skill card component
- 2. Skill section
-
 #### GOALS FOR TODAY'S SESSION:
- 1. Finish skill card component
- 2. Finish skill section component
  3. If time permits, make it mobile ready
  4. Figure out resume routing
  5. Get a legit image of myself
