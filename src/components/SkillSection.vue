@@ -34,6 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@/assets/styles.scss";
 .skills {
   padding-bottom: 1rem;
   margin-top: -14rem;
@@ -45,5 +46,18 @@ export default {
 
 .container.is-narrow {
   max-width: 800px;
+}
+
+@media screen and (max-width: 769px) {
+  .skills {
+    display: flex;
+    .column:first-child {
+      border-bottom: 1px solid $skill-border-color;
+      border-right: none;
+    }
+  }
+  .container.is-narrow {
+    width: 100%;
+  }
 }
 </style>

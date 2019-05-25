@@ -55,4 +55,14 @@ export default {
   border: none !important;
   font-size: 1.1rem;
 }
+
+@media screen and (max-width: 769px) {
+  .skills-title {
+    padding-top: 25px;
+  }
+  .skill-column {
+    width: 100%;
+  }
+}
+
 </style>

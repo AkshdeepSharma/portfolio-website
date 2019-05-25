@@ -35,4 +35,19 @@
 .hero {
   padding-bottom: 4rem;
 }
+
+@media screen and (max-width: 769px) {
+  #page {
+    max-width: 80%;
+    h1 {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    p {
+      padding-bottom: 40px;
+    }
+  }
+  
+}
+
 </style>

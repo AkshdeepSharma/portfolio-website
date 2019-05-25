@@ -119,4 +119,15 @@ footer {
   background-color: white;
   border: 2px solid white 1;
 }
+
+@media screen and (max-width: 769px) {
+  footer {
+    height: 45rem;
+  }
+  #cta-background {
+    max-width: 85%;
+  }
+}
+
+
 </style>

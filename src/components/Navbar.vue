@@ -9,7 +9,7 @@
       <div class="navbar-item">
         <div class="buttons">
           <a
-            href="@/components/resume.pdf"
+            href="https://github.com/AkshdeepSharma/portfolio-website/blob/master/src/static/resume.pdf"
             target="_blank"
             class="button is-rounded is-primary is-outlined"
           >
@@ -31,4 +31,13 @@ export default {
 
 <style lang="scss">
 @import "@/assets/styles.scss";
+
+@media screen and (max-width: 769px) {
+  .navbar-brand {
+    margin-left: -50px;
+  }
+  .navbar-end {
+    margin-right: -50px;
+  }
+}
 </style>

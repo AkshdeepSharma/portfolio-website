@@ -1,46 +1,23 @@
 <template>
   <div id="app">
-    <navbar/>
-    <div>
-      <page-header />
-      <about-me />
-      <skill-section :skills="skills" />
-    </div>
-    <div class="container">
-      <project-section :projects="projects" />
-    </div>
-    <Footer />
+    <Home/>
   </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue";
-import AboutMe from "./components/AboutMe.vue";
-import Footer from "./components/Footer.vue";
-import PageHeader from "./components/PageHeader.vue";
-import ProjectSection from "./components/ProjectSection.vue";
-import SkillSection from "./components/SkillSection.vue";
+import Home from "@/views/Home.vue";
 
 export default {
   name: "app",
   components: {
-    Navbar,
-    PageHeader,
-    AboutMe,
-    SkillSection,
-    ProjectSection,
-    Footer
-  },
-  props: {
-    projects: Array,
-    skills: Array,
+    Home
   },
 };
 </script>
 
 <style>
 #app {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

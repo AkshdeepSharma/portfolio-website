@@ -36,4 +36,13 @@ export default {
     width: 200px;
   }
 }
+
+@media screen and (max-width: 769px) {
+  #ph {
+    padding-top: 9rem;
+  }
+  h1 {
+    line-height: 120%;
+  }
+}
 </style>
