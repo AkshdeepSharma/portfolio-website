@@ -43,11 +43,4 @@ export default {
     }
   }
 }
-
-@media screen and (max-width: 769px) {
-  .box {
-    margin: auto;
-    
-  }
-}
 </style>

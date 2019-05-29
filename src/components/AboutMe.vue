@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 769px) {
   #page {
-    max-width: 80%;
+    max-width: 90%;
     h1 {
       padding-top: 20px;
       padding-bottom: 10px;
@@ -47,7 +47,5 @@
       padding-bottom: 40px;
     }
   }
-  
 }
-
 </style>

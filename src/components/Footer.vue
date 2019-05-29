@@ -1,8 +1,5 @@
 <template>
   <footer class="section is-medium">
-    <div class="columns">
-
-    </div>
     <div id="cta-background" class="box columns">
       <div class="column is-one-third">
         <h1>Let's build awesome code together!</h1>
@@ -98,7 +95,7 @@ footer {
 }
 #ebc2 {
   text-align: center;
-  margin-top: -50px;
+  margin-top: -30px;
   padding-bottom: 1rem;
   font-size: 1.5rem;
   opacity: 0.8;
@@ -122,12 +119,11 @@ footer {
 
 @media screen and (max-width: 769px) {
   footer {
-    height: 45rem;
+    margin-top: -40px;
+    height: 43rem;
   }
   #cta-background {
     max-width: 85%;
   }
 }
-
-
 </style>

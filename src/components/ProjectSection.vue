@@ -1,11 +1,11 @@
 <template>
-  <div id="project-section">
+  <div class="section" id="project-section">
     <div class="project-section-titles">
       <h1>My Recent Projects</h1>
       <h2>Here are a few of my recent projects!</h2>
     </div>
     <div class="columns is-multiline">
-      <div class="tile column is-one-third-desktop is-half-tablet" 
+      <div class="tile column is-one-third-desktop" 
       v-for="project in projects" :key="project.id">
         <project-card
           :title="project.title"
@@ -124,14 +124,11 @@ export default {
 }
 
 @media screen and (max-width: 769px) {
+  #project-section {
+    margin-top: -40px;
+  }
   #github-button {
-    margin-top: -5px;
-  }
-  #projecet-section.columns {
-    width: 100%;
-  }
-  #projeect-section.column {
-    width: 100%;
+    margin-top: 35px;
   }
 }
 </style>
