@@ -2,7 +2,7 @@
   <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <router-link to="/" class="navbar-item">
-        <img src="@/assets/logo.png" width="28" height="28">
+        <img id="navbar-img" src="@/assets/logo.png" width="28" height="28">
       </router-link>
     </div>
     <div class="navbar-end">
@@ -31,6 +31,9 @@ export default {
 
 <style lang="scss">
 @import "@/assets/styles.scss";
+#navbar-img {
+  border-radius: 20%;
+}
 
 @media screen and (max-width: 769px) {
   .navbar-brand {

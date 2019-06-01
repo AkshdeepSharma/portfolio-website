@@ -46,7 +46,7 @@ export default {
           title: "portfolio-website",
           description: "My portfolio website that you're viewing right now",
           language: "Vue.js",
-          url: "https://github.com/AkshdeepSharma/website"
+          url: "https://github.com/AkshdeepSharma/portfolio-website"
         },
         {
           id: 2,
@@ -61,7 +61,7 @@ export default {
           title: "mewsick-bot",
           description: "Discord bot that plays music in voice channels",
           language: "Python 3",
-          url: "https://github.com/AkshdeepSharma/MewSick"
+          url: "https://github.com/AkshdeepSharma/mewsick-bot"
         },
         {
           id: 4,
@@ -69,7 +69,7 @@ export default {
           description:
             "Twitter bot that tweets the probability of WW3 based on Twitter sentiment analysis",
           language: "Python 3",
-          url: "https://github.com/AkshdeepSharma/Doomsday_Buddy"
+          url: "https://github.com/AkshdeepSharma/doomsday-buddy"
         },
         {
           id: 5,
@@ -77,7 +77,7 @@ export default {
           description:
             "Reddit bot that crossposts hot posts to a private subreddit",
           language: "Python 3",
-          url: "https://github.com/AkshdeepSharma/Reddit_Bot"
+          url: "https://github.com/AkshdeepSharma/subreddit-manager"
         },
         {
           id: 6,
@@ -85,7 +85,7 @@ export default {
           description:
             "Texts me every morning with weather conditions and ETD to get to school on time",
           language: "Python 3",
-          url: "https://github.com/AkshdeepSharma/Reddit_Bot"
+          url: "https://github.com/AkshdeepSharma/WTSIL"
         }
 
       ]

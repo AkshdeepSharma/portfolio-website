@@ -4,7 +4,7 @@
       <div id="ph" class="container">
         <h1>Software Developer</h1>
         <h2>I design and code things to make my life a smidge easier.</h2>
-        <img src="@/assets/portrait.png">
+        <img src="@/assets/portrait.png" width="225" height="365">
       </div>
     </div>
   </section>
@@ -31,8 +31,6 @@ export default {
   }
   img {
     margin-top: 0.5rem;
-    height: 365px;
-    width: 225px;
   }
 }
 
