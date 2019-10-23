@@ -43,13 +43,20 @@ export default {
       projects: [
         {
           id: 1,
+          title: "election-tracker",
+          description: "See the most recent tweets from Canadian political leaders",
+          language: "Python & Vue.js",
+          url: "https://github.com/AkshdeepSharma/ElectionTracker"
+        },
+        {
+          id: 2,
           title: "portfolio-website",
           description: "My portfolio website that you're viewing right now",
           language: "Vue.js",
           url: "https://github.com/AkshdeepSharma/portfolio-website"
         },
         {
-          id: 2,
+          id: 3,
           title: "todo-api",
           description:
             "An API where users can use CRUD operations on todo notes",
@@ -57,14 +64,14 @@ export default {
           url: "https://github.com/AkshdeepSharma/node-mongo-todo-api"
         },
         {
-          id: 3,
+          id: 4,
           title: "mewsick-bot",
           description: "Discord bot that plays music in voice channels",
           language: "Python 3",
           url: "https://github.com/AkshdeepSharma/mewsick-bot"
         },
         {
-          id: 4,
+          id: 5,
           title: "doomsday-buddy",
           description:
             "Twitter bot that tweets the probability of WW3 based on Twitter sentiment analysis",
@@ -72,22 +79,13 @@ export default {
           url: "https://github.com/AkshdeepSharma/doomsday-buddy"
         },
         {
-          id: 5,
+          id: 6,
           title: "subreddit-manager",
           description:
             "Reddit bot that crossposts hot posts to a private subreddit",
           language: "Python 3",
           url: "https://github.com/AkshdeepSharma/subreddit-manager"
-        },
-        {
-          id: 6,
-          title: "WTSIL",
-          description:
-            "Texts me every morning with weather conditions and ETD to get to school on time",
-          language: "Python 3",
-          url: "https://github.com/AkshdeepSharma/WTSIL"
         }
-
       ]
     };
   }
