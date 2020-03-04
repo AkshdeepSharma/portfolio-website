@@ -6,13 +6,13 @@
           <skill-card
             title="Front-end Skills"
             languages="HTML, CSS, JavaScript, Sass"
-            :technologies="['Vue.js', 'React.js', 'Bulma','Buefy','Webpack','Babel',
+            :technologies="['React','Vue.js','Bulma','Buefy','Webpack','Babel',
             'Git']"
           />
           <skill-card
             title="Back-end Skills"
             languages="Python, JavaScript"
-            :technologies="['Node.js','Express.js','MongoDB','Firestore',
+            :technologies="['Node.js','Express.js','Firestore','MongoDB',
             'Amazon Web Services','Netlify','Digital Ocean','RESTful APIs',
             'Git',
           ]"
@@ -29,7 +29,7 @@ export default {
   name: "skill-section",
   components: {
     SkillCard
-  },
+  }
 };
 </script>
 

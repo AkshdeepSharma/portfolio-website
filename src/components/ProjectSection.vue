@@ -5,8 +5,7 @@
       <h2>Here are a few of my recent projects!</h2>
     </div>
     <div class="columns is-multiline">
-      <div class="tile column is-one-third-desktop" 
-      v-for="project in projects" :key="project.id">
+      <div class="tile column is-one-third-desktop" v-for="project in projects" :key="project.id">
         <project-card
           :title="project.title"
           :description="project.description"
@@ -43,20 +42,28 @@ export default {
       projects: [
         {
           id: 1,
+          title: "hireo.io",
+          description: "Hear me out: Tinder, but for resumes (currently a WIP)",
+          language: "React, Node.js",
+          url: ""
+        },
+        {
+          id: 2,
           title: "election-tracker",
-          description: "See the most recent tweets from Canadian political leaders",
+          description:
+            "See the most recent tweets from Canadian political leaders",
           language: "Python & Vue.js",
           url: "https://github.com/AkshdeepSharma/ElectionTracker"
         },
         {
-          id: 2,
+          id: 3,
           title: "portfolio-website",
           description: "My portfolio website that you're viewing right now",
           language: "Vue.js",
           url: "https://github.com/AkshdeepSharma/portfolio-website"
         },
         {
-          id: 3,
+          id: 4,
           title: "todo-api",
           description:
             "An API where users can use CRUD operations on todo notes",
@@ -64,27 +71,19 @@ export default {
           url: "https://github.com/AkshdeepSharma/node-mongo-todo-api"
         },
         {
-          id: 4,
+          id: 5,
           title: "mewsick-bot",
           description: "Discord bot that plays music in voice channels",
           language: "Python 3",
           url: "https://github.com/AkshdeepSharma/mewsick-bot"
         },
         {
-          id: 5,
+          id: 6,
           title: "doomsday-buddy",
           description:
             "Twitter bot that tweets the probability of WW3 based on Twitter sentiment analysis",
           language: "Python 3",
           url: "https://github.com/AkshdeepSharma/doomsday-buddy"
-        },
-        {
-          id: 6,
-          title: "subreddit-manager",
-          description:
-            "Reddit bot that crossposts hot posts to a private subreddit",
-          language: "Python 3",
-          url: "https://github.com/AkshdeepSharma/subreddit-manager"
         }
       ]
     };

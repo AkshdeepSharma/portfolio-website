@@ -1,16 +1,16 @@
 <template>
-    <div class="box notification is-secondary project">
-      <h1 class="title">{{ this.title }}</h1>
-      <h2 class="subtitle">{{ this.description }}</h2>
-      <h2 class="subtitle">Language: {{ this.language }}</h2>
-      <div class="github-url">
-        <a id="github-url-text" :href="this.url" target="_blank">
-          <span>
-          <i class="fas fa-code"/>
+  <div class="box notification is-secondary project">
+    <h1 class="title">{{ this.title }}</h1>
+    <h2 class="subtitle">{{ this.description }}</h2>
+    <h2 class="subtitle">Language: {{ this.language }}</h2>
+    <div v-if="this.url" class="github-url">
+      <a id="github-url-text" :href="this.url" target="_blank">
+        <span>
+          <i class="fas fa-code" />
           View Source Code
-          </span>
-        </a>
-      </div>
+        </span>
+      </a>
+    </div>
   </div>
 </template>
 
