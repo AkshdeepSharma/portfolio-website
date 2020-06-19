@@ -5,8 +5,8 @@
         <div class="columns is-centered is-marginless">
           <skill-card
             title="Front-end Skills"
-            languages="HTML, CSS, JavaScript, Sass"
-            :technologies="['React','Vue.js','Bulma','Buefy','Webpack','Babel',
+            languages="JavaScript, HTML, CSS, Sass"
+            :technologies="['React','Redux-Saga','Vue.js','Bulma','Buefy','Webpack','Babel',
             'Git']"
           />
           <skill-card

@@ -45,7 +45,7 @@ export default {
           title: "hireo.io",
           description: "Hear me out: Tinder, but for resumes (currently a WIP)",
           language: "React, Node.js",
-          url: ""
+          url: "https://github.com/AkshdeepSharma/hireo.io"
         },
         {
           id: 2,
